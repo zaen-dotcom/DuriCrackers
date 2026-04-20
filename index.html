@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Duri Crackers - Kerupuk inovatif dari biji durian. Camilan renyah, sehat, dan ramah lingkungan dari Jember.">
+    <meta name="keywords" content="duri crackers, kerupuk durian, camilan sehat, agroindustri jember, kerupuk biji durian">
+    <meta name="author" content="Duriva">
+    <title>DuriCrackers — Kerupuk Biji Durian Khas Jember</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Floating Durian Decorations -->
+    <div class="floating-decorations" aria-hidden="true">
+        <span class="float-item float-1">🍈</span>
+        <span class="float-item float-2">✨</span>
+        <span class="float-item float-3">🌿</span>
+        <span class="float-item float-4">🍈</span>
+        <span class="float-item float-5">🍃</span>
+        <span class="float-item float-6">✨</span>
+    </div>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">🍈</span>
+                <span class="logo-text">Duri<span class="logo-highlight">Crackers</span></span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#products" class="nav-link">Produk</a></li>
+                <li><a href="#process" class="nav-link">Proses</a></li>
+                <li><a href="#business" class="nav-link">Bisnis</a></li>
+                <li><a href="#vision" class="nav-link">Visi</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Hubungi Kami</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes" aria-hidden="true">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-on-scroll">
+                    <span>🌱</span> Ramah Lingkungan &amp; Berkelanjutan
+                </div>
+                <h1 class="hero-title animate-on-scroll">
+                    Renyahnya <span class="text-gradient">Biji Durian</span> dalam Setiap Gigitan! 🍈
+                </h1>
+                <p class="hero-subtitle animate-on-scroll">
+                    Kerupuk inovatif dari limbah biji durian — gurih, renyah, dan penuh manfaat. Solusi kreatif untuk lingkungan yang lebih bersih.
+                </p>
+                <div class="hero-actions animate-on-scroll">
+                    <a href="#products" class="btn btn-primary">
+                        <span>Jelajahi Produk</span>
+                        <span class="btn-icon">→</span>
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <span>Kenali Kami</span>
+                    </a>
+                </div>
+                <div class="hero-stats animate-on-scroll">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="7000">Rp7.000</span>
+                        <span class="stat-label">per Kemasan</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">2 Varian</span>
+                        <span class="stat-label">Rasa Lezat</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">50gr</span>
+                        <span class="stat-label">Kemasan Praktis</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual animate-on-scroll">
+                <div class="hero-image-wrapper">
+                    <img src="images/hero-product.png" alt="DuriCrackers - Kerupuk Biji Durian" class="hero-image" loading="eager">
+                    <div class="hero-image-glow"></div>
+                </div>
+                <div class="hero-floating-badge badge-1">
+                    <span>🔥</span> Pedas
+                </div>
+                <div class="hero-floating-badge badge-2">
+                    <span>⭐</span> Original
+                </div>
+                <div class="hero-floating-badge badge-3">
+                    <span>💯</span> Higienis
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave" aria-hidden="true">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="var(--clr-white)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">🏢 Tentang Kami</span>
+                <h2 class="section-title">Duri Crackers <span class="text-gradient">by Duriva</span></h2>
+                <p class="section-subtitle">Terobosan di sektor agroindustri yang mengolah limbah biji durian menjadi camilan kerupuk bernilai ekonomi tinggi.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card about-main animate-on-scroll">
+                    <div class="about-card-icon">🌍</div>
+                    <h3>Misi Keberlanjutan</h3>
+                    <p>Berlokasi di <strong>Kaliwates, Jember</strong>, usaha kami berkomitmen pada prinsip keberlanjutan lingkungan dengan memanfaatkan limbah yang sebelumnya tidak terpakai dari mitra lokal. Kami menghadirkan solusi kreatif untuk mengurangi pencemaran tanah akibat limbah biji durian di Kabupaten Jember.</p>
+                </div>
+                <div class="about-card animate-on-scroll">
+                    <div class="about-card-icon">♻️</div>
+                    <h3>Ramah Lingkungan</h3>
+                    <p>Mengubah limbah biji durian menjadi produk bernilai ekonomi tinggi, mengurangi pencemaran tanah.</p>
+                </div>
+                <div class="about-card animate-on-scroll">
+                    <div class="about-card-icon">👨‍🎓</div>
+                    <h3>Tim Profesional</h3>
+                    <p>Didukung oleh 9 mahasiswa Manajemen Agroindustri Politeknik Negeri Jember yang berdedikasi.</p>
+                </div>
+                <div class="about-card animate-on-scroll">
+                    <div class="about-card-icon">📍</div>
+                    <h3>Lokal Jember</h3>
+                    <p>Bangga berbasis di Jember dengan bahan baku dari mitra lokal Rumah Durian Pakusari.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PRODUCTS ===================== -->
+    <section class="section products" id="products">
+        <div class="products-bg" aria-hidden="true"></div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">🧀 Inovasi & Produk</span>
+                <h2 class="section-title">Keunggulan <span class="text-gradient">DuriCrackers</span></h2>
+                <p class="section-subtitle">Camilan renyah inovatif dari biji durian yang kaya nutrisi dan menggugah selera.</p>
+            </div>
+
+            <!-- Product Variants -->
+            <div class="product-variants animate-on-scroll">
+                <div class="variant-card variant-original">
+                    <div class="variant-badge">Best Seller</div>
+                    <div class="variant-emoji">🧈</div>
+                    <h3>Original</h3>
+                    <p>Gurih alami dengan cita rasa autentik biji durian yang telah diolah sempurna</p>
+                    <div class="variant-price">
+                        <span class="price-amount">Rp7.000</span>
+                        <span class="price-unit">/ 50gr</span>
+                    </div>
+                </div>
+                <div class="variant-card variant-spicy">
+                    <div class="variant-badge variant-badge-hot">🔥 Hot</div>
+                    <div class="variant-emoji">🌶️</div>
+                    <h3>Pedas</h3>
+                    <p>Perpaduan renyah dan pedas yang menggugah selera, bikin nagih!</p>
+                    <div class="variant-price">
+                        <span class="price-amount">Rp7.000</span>
+                        <span class="price-unit">/ 50gr</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Features -->
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">🥗</span>
+                    </div>
+                    <h4>Kaya Nutrisi</h4>
+                    <p>Tinggi kandungan karbohidrat, serat, dan mineral alami dari biji durian.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">⚙️</span>
+                    </div>
+                    <h4>Teknologi Modern</h4>
+                    <p>Menggunakan teknologi dehydrator untuk tekstur renyah dan mengembang sempurna.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">📦</span>
+                    </div>
+                    <h4>Kemasan Praktis</h4>
+                    <p>Dikemas dalam ukuran 50gr dengan desain yang informatif dan menarik.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon-wrap">
+                        <span class="feature-icon">✅</span>
+                    </div>
+                    <h4>Kualitas Terjamin</h4>
+                    <p>Proses produksi higienis dan terkontrol dari awal hingga akhir.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROCESS ===================== -->
+    <section class="section process" id="process">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">🏭 Proses Produksi</span>
+                <h2 class="section-title">Dari Biji Durian ke <span class="text-gradient">Kerupuk Renyah</span></h2>
+                <p class="section-subtitle">Setiap keping Duri Crackers melalui tahapan produksi yang terkontrol dan higienis.</p>
+            </div>
+            <div class="process-timeline">
+                <div class="timeline-line" aria-hidden="true"></div>
+                
+                <div class="process-step animate-on-scroll" data-step="1">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon">🧹</div>
+                        <h4>Pencucian & Pengupasan</h4>
+                        <p>Biji durian dibersihkan secara menyeluruh dan dikupas kulitnya untuk mendapatkan bahan baku terbaik.</p>
+                    </div>
+                </div>
+
+                <div class="process-step animate-on-scroll" data-step="2">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon">♨️</div>
+                        <h4>Pengukusan & Penghalusan</h4>
+                        <p>Biji dikukus hingga matang sempurna, lalu dihaluskan sebagai bahan dasar adonan kerupuk.</p>
+                    </div>
+                </div>
+
+                <div class="process-step animate-on-scroll" data-step="3">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon">🧂</div>
+                        <h4>Pencampuran & Perebusan</h4>
+                        <p>Adonan dicampur dengan bumbu alami pilihan dan direbus hingga menyatu sempurna.</p>
+                    </div>
+                </div>
+
+                <div class="process-step animate-on-scroll" data-step="4">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon">☀️</div>
+                        <h4>Pemotongan & Penjemuran</h4>
+                        <p>Adonan didinginkan, dipotong tipis dengan presisi, lalu dikeringkan secara alami atau menggunakan mesin dehydrator.</p>
+                    </div>
+                </div>
+
+                <div class="process-step animate-on-scroll" data-step="5">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <div class="step-icon">🍳</div>
+                        <h4>Penggorengan & Pengemasan</h4>
+                        <p>Digoreng hingga renyah dan mengembang sempurna, lalu dikemas secara higienis dalam kemasan modern 50gr.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== BUSINESS ===================== -->
+    <section class="section business" id="business">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">📊 Analisis Bisnis</span>
+                <h2 class="section-title">Peluang Bisnis <span class="text-gradient">yang Menjanjikan</span></h2>
+                <p class="section-subtitle">Data-driven approach untuk memastikan keberlanjutan dan pertumbuhan usaha.</p>
+            </div>
+            <div class="business-grid">
+                <div class="biz-card animate-on-scroll">
+                    <div class="biz-card-header">
+                        <span class="biz-icon">🎯</span>
+                        <h4>Target Pasar</h4>
+                    </div>
+                    <p>Terfokus pada <strong>mahasiswa, remaja, dan masyarakat lokal</strong> yang menyukai camilan praktis dengan harga kompetitif <strong>Rp7.000</strong> per kemasan.</p>
+                </div>
+                <div class="biz-card animate-on-scroll">
+                    <div class="biz-card-header">
+                        <span class="biz-icon">👥</span>
+                        <h4>Kapasitas Produksi</h4>
+                    </div>
+                    <p>Didukung oleh tim yang terdiri dari <strong>9 mahasiswa</strong> Manajemen Agroindustri <strong>Politeknik Negeri Jember</strong> yang kompeten.</p>
+                </div>
+                <div class="biz-card animate-on-scroll">
+                    <div class="biz-card-header">
+                        <span class="biz-icon">🤝</span>
+                        <h4>Kemitraan Strategis</h4>
+                    </div>
+                    <p>Bekerja sama dengan <strong>Rumah Durian Pakusari</strong> yang menjamin pasokan bahan baku <strong>5-10 kg biji durian</strong> setiap harinya.</p>
+                </div>
+                <div class="biz-card biz-card-highlight animate-on-scroll">
+                    <div class="biz-card-header">
+                        <span class="biz-icon">📈</span>
+                        <h4>Kelayakan Usaha</h4>
+                    </div>
+                    <div class="bcr-display">
+                        <div class="bcr-number">2.3</div>
+                        <div class="bcr-label">B/C Ratio</div>
+                    </div>
+                    <p>Berdasarkan analisis keuangan, proyek ini memiliki <strong>Benefit and Cost Ratio</strong> sebesar 2,3 — menunjukkan bahwa usaha ini <strong>sangat layak</strong> untuk dikembangkan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== VISION ===================== -->
+    <section class="section vision" id="vision">
+        <div class="container">
+            <div class="vision-content animate-on-scroll">
+                <div class="vision-text">
+                    <span class="section-tag">🚀 Visi Masa Depan</span>
+                    <h2 class="section-title">Menuju Produk Unggulan <span class="text-gradient">Agroindustri Nasional</span></h2>
+                    <p class="vision-description">Kami menargetkan Duri Crackers untuk menjadi produk unggulan agroindustri Jember yang menasional.</p>
+                    <div class="vision-roadmap">
+                        <div class="roadmap-item">
+                            <span class="roadmap-icon">📋</span>
+                            <div>
+                                <h4>Sertifikasi Halal & BPOM</h4>
+                                <p>Pengurusan sertifikasi untuk jaminan keamanan dan kepercayaan konsumen.</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-item">
+                            <span class="roadmap-icon">🍃</span>
+                            <div>
+                                <h4>Perluasan Varian Rasa</h4>
+                                <p>Pengembangan varian baru seperti Daun Jeruk dan rasa inovatif lainnya.</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-item">
+                            <span class="roadmap-icon">🛒</span>
+                            <div>
+                                <h4>Distribusi Marketplace</h4>
+                                <p>Perluasan penjualan melalui marketplace digital dan toko pusat oleh-oleh.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vision-mascot">
+                    <img src="images/mascot.png" alt="DuriCrackers Mascot" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="section cta-section" id="contact">
+        <div class="cta-bg-pattern" aria-hidden="true"></div>
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Yuk, Cobain DuriCrackers! 🍈</h2>
+                <p>Rasakan sensasi renyahnya kerupuk dari biji durian. Pesan sekarang dan nikmati camilan sehat yang ramah lingkungan!</p>
+                <div class="cta-actions">
+                    <a href="https://wa.me/6287866772260?text=Halo%20DuriCrackers!%20Saya%20mau%20pesan" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                        <span>💬 Pesan via WhatsApp</span>
+                    </a>
+                    <a href="https://instagram.com/Duri_Crackers" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">
+                        <span>📸 Follow Instagram</span>
+                    </a>
+                </div>
+                <div class="cta-price-tag">
+                    <span class="cta-price">Rp7.000</span>
+                    <span class="cta-price-desc">per kemasan 50gr</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="footer-wave" aria-hidden="true">
+            <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+                <path d="M0,40 C480,80 960,0 1440,40 L1440,80 L0,80 Z" fill="var(--clr-sage-dark)"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo footer-logo">
+                        <span class="logo-icon">🍈</span>
+                        <span class="logo-text">Duri<span class="logo-highlight">Crackers</span></span>
+                    </a>
+                    <p>Kerupuk inovatif dari limbah biji durian. Camilan renyah, sehat, dan ramah lingkungan dari Jember.</p>
+                    <p class="footer-tagline">by <strong>Duriva</strong></p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#products">Produk</a></li>
+                        <li><a href="#process">Proses Produksi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Informasi</h4>
+                    <ul>
+                        <li><a href="#business">Analisis Bisnis</a></li>
+                        <li><a href="#vision">Visi Kami</a></li>
+                        <li><a href="#contact">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontak</h4>
+                    <p>📍 Kaliwates, Jember, Jawa Timur</p>
+                    <p>🏫 Politeknik Negeri Jember</p>
+                    <p>🤝 Mitra: Rumah Durian Pakusari</p>
+                    <div class="footer-socials">
+                        <a href="https://wa.me/6287866772260?text=Halo%20DuriCrackers!%20Saya%20mau%20pesan" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp">
+                            <span class="social-icon">💬</span> 0878-6677-2260
+                        </a>
+                        <a href="https://instagram.com/Duri_Crackers" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                            <span class="social-icon">📸</span> @Duri_Crackers
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DuriCrackers by Duriva. All rights reserved.</p>
+                <p class="footer-credit">Manajemen Agroindustri — Politeknik Negeri Jember</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
