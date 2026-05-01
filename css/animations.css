@@ -185,3 +185,35 @@
         display: none;
     }
 }
+
+/* ---------- Hero Auto Slide (Perbaikan Persegi) ---------- */
+.hero-image-wrapper {
+    width: 100%;
+    max-width: 500px; /* Sesuaikan dengan style.css Anda */
+    aspect-ratio: 1 / 1; /* MEMAKSA BENTUK PERSEGI */
+    overflow: hidden;
+    border-radius: var(--radius-xl);
+    position: relative;
+}
+
+.hero-slider-inner {
+    display: flex;
+    width: 200%; 
+    height: 100%;
+    animation: heroAutoSlide 8s infinite ease-in-out;
+}
+
+.hero-slide-img {
+    width: 50%; /* Mengisi setengah dari 200% */
+    height: 100%;
+    /* KUNCI UTAMA: Gambar akan dipotong (crop) otomatis agar pas di kotak persegi 
+       tanpa merusak rasio (tidak gepeng) */
+    object-fit: cover; 
+    flex-shrink: 0;
+}
+
+@keyframes heroAutoSlide {
+    0%, 45% { transform: translateX(0); }      /* Gambar 1 diam */
+    50%, 95% { transform: translateX(-50%); }  /* Gambar 2 diam */
+    100% { transform: translateX(0); }         /* Kembali ke Gambar 1 */
+}
